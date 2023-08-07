@@ -11,11 +11,11 @@ Spacecraft has mainly 2 functionalities
   1. Move the Spacecraft forward(f) or backward(b).
   2. turn the Spacecraft 90 degree to left(l), right(r), up(u), down(d)
 
-*Note: f, b, l, r, u, d represents commands*
+*Note: f, b, l, r, u, d represents commands.*
 
-### Move forward or backward
+### Move Function
 After every move command spacecraft position will change. One of its cordinated will be incremented or decremented by 1. See below cases to understand move better.
-Assume initial position as (x, y, z)
+Assume initial position as (x, y, z).
 - Facing Direction = N and Command = f  --> new position (x, y+1, z)
 - Facing Direction = N and Command = b  --> new position (x, y-1, z)
 - Facing Direction = S and Command = f  --> new position (x, y-1, z)
@@ -30,7 +30,7 @@ Assume initial position as (x, y, z)
 - Facing Direction = D and Command = b  --> new position (x, y, z+1)
 
 
-### Turn 
+### Turn Function
 After every turn command spacecraft facing direction will change. See below cases to understand turn better.
 - Facing Direction = N and Command = l --> new Direction = W
 - Facing Direction = N and Command = r --> new Direction = E
@@ -39,8 +39,6 @@ After every turn command spacecraft facing direction will change. See below case
 ...
 
   
-
-
 
 ## TechStack
 - Backend: Python 
